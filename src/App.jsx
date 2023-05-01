@@ -11,7 +11,7 @@ function App() {
   
   return (
     <div className={`bg-white grid ${videoStatus ? `` :`grid-rows-body`} h-screen`}>
-      {!videoStatus && <div onClick={VideoOn} className=""></div>}
+      {!videoStatus && <div onClick={VideoOn} className="text-lg">Test commit</div>}
       {!videoStatus && <Footer videoon={VideoOn}/>}
       {videoStatus && <Video />}
     </div>
