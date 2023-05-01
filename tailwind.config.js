@@ -11,9 +11,9 @@ export default {
         'footer': '250px auto 347px auto 200px'
       },
       backgroundImage: {
-        'bg1': 'url("bg1.jpg")',
-        'bg2': 'url("bg2.jpg")',
-        'bg3': 'url("bg3.jpg")'
+        'bg1': 'url("./src/assets/bg1.jpg")',
+        'bg2': 'url("./src/assets/bg2.jpg")',
+        'bg3': 'url("./src/assets/bg3.jpg")'
       }
     },
   },
